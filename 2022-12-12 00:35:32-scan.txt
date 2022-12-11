@@ -1,0 +1,37 @@
+Отчёт о состоянии системы:
+Пользователи системы: '_cmiodalassistants', '_locationd', '_iconservices', '_windowserver', '_spotlight', '_displaypolicyd', 'e.kazimirova', '_fpsd', '_coreaudiod', '_accessoryupdater', '_softwareupdate', '_driverkit', '_assetcache', '_installcoordinationd', '_gamecontrollerd', '_reportmemoryexception', '_networkd', 'root', '_distnote', '_trustd', '_appleevents', '_nsurlsessiond', '_mdnsresponder', '_usbmuxd', '_netbios', '_timed', '_applepay', '_analyticsd', '_hidd'
+Процессов запущено: 414
+Пользовательских процессов:
+'e.kazimirova': 241
+'_windowserver': 2
+'root': 125
+'_installcoordinationd': 1
+'_hidd': 1
+'_iconservices': 2
+'_gamecontrollerd': 1
+'_fpsd': 3
+'_trustd': 2
+'_spotlight': 4
+'_analyticsd': 2
+'_netbios': 1
+'_applepay': 1
+'_reportmemoryexception': 1
+'_assetcache': 3
+'_appleevents': 2
+'_locationd': 3
+'_driverkit': 1
+'_accessoryupdater': 1
+'_cmiodalassistants': 3
+'_nsurlsessiond': 2
+'_softwareupdate': 4
+'_coreaudiod': 2
+'_mdnsresponder': 1
+'_networkd': 1
+'_distnote': 1
+'_displaypolicyd': 1
+'_usbmuxd': 1
+'_timed': 1
+Всего памяти используется: 62.3%
+Всего CPU используется: 54.4%
+Больше всего памяти использует: /Applications/PyChar
+Больше всего CPU использует: /System/Library/Priv
