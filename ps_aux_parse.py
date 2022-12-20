@@ -9,7 +9,7 @@ LINE_REGEX = r'^(\S+)\s+\S+\s+(\d+[,\.]\d+)\s+(\d+[,\.]\d+)\s+\S+\s+\S+\s+\S+\s+
 def line_to_dict(line):
     m = re.search(LINE_REGEX, line)
     if m is not None:
-        return {'user': m.group(1), 'cpu': m.group(2), 'mem': m.group(3), 'cmd': m.group(4)}
+        return {'user': m.group(1), 'cpu': float(m.group(2)), 'mem': float(m.group(3)), 'cmd': m.group(4)}
     else:
         return None
 
@@ -26,7 +26,7 @@ def get_user(parsed_line):
 def count_memory(all_processes):
     total = 0.0
     for process in all_processes:
-        total += float(process['mem'])
+        total += process['mem']
 
     return total
 
@@ -34,7 +34,7 @@ def count_memory(all_processes):
 def count_cpu(all_processes):
     total = 0.0
     for process in all_processes:
-        total += float(process['cpu'])
+        total += process['cpu']
 
     return total
 
